@@ -57,5 +57,5 @@ export default defineConfig({
   experimental: {
     preserveScriptOrder: true,
   },
-  outDir: "./docs",
+  outDir: "./dist",
 });
