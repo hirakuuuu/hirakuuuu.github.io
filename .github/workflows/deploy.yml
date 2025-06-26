@@ -64,6 +64,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Check dist directory details
+        run: |
+          du -sh dist
+          find dist -type l
+          tree -L 3 dist || true
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
