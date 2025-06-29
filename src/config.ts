@@ -1,5 +1,9 @@
+const isProd = import.meta.env.MODE === "production";
+
 export const SITE = {
-  website: "https://hirakuuuu.github.io/portfolio/", // replace this with your deployed domain
+  website: isProd
+    ? "https://hirakuuuu.github.io/portfolio/" // 本番用
+    : "http://localhost:4321/", // 開発用
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
