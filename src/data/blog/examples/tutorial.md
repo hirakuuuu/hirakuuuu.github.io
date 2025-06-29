@@ -1,7 +1,7 @@
 ---
 title: 数式環境の導入について
 author: Hiraku Morimoto
-pubDatetime: 2025-06-29T00:00:00Z
+pubDatetime: 2025-06-28T09:00:00+09:00
 slug: tutorial
 featured: false
 draft: false
