@@ -30,7 +30,7 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on X`,
     icon: IconBrandX,
   },
-    {
+  {
     name: "AtCoder",
     href: "https://atcoder.jp/users/hirakuuuu",
     linkTitle: `${SITE.title} on AtCoder`,
