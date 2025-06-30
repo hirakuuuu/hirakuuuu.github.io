@@ -4,7 +4,7 @@ import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 
-// const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL;
 
 export interface Props {
   title?: string;
@@ -132,7 +132,7 @@ const structuredData = {
 
     <ClientRouter />
 
-    <script is:inline src={`/toggle-theme.js`}></script>
+    <script is:inline src={`${base}toggle-theme.js`}></script>
 
     <link
       rel="stylesheet"
