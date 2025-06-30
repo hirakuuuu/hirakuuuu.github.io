@@ -19,7 +19,7 @@ const isProd = process.env.NODE_ENV === "production";
 export default defineConfig({
   site: SITE.website,
   // base: isProd ? "/portfolio/" : "/",
-  base: isProd ? "/portfolio" : "",
+  base: isProd ? "/portfolio/" : "/",
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
