@@ -13,7 +13,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
-const base = import.meta.env.BASE_URL;
+// const base = import.meta.env.BASE_URL;
 
 const posts = await getCollection("blog");
 
@@ -31,7 +31,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </h1>
       <a
         target="_blank"
-        href={`${base}/rss.xml`}
+        href="/rss.xml"
         class="inline-block"
         aria-label="rss feed"
         title="RSS Feed"
@@ -102,7 +102,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     }
 
     <div class="my-8 text-center">
-      <LinkButton href={`${base}posts/`}>
+      <LinkButton href="/posts/">
         All Posts
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>

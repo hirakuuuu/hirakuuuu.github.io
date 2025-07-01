@@ -2,7 +2,7 @@ const isProd = import.meta.env.MODE === "production";
 
 export const SITE = {
   website: isProd
-    ? "https://hirakuuuu.github.io/portfolio/" // 本番用
+    ? "https://hirakuuuu.github.io/" // 本番用
     : "http://localhost:4321/", // 開発用
   author: "Hiraku Morimoto",
   profile: "https://satnaing.dev/",

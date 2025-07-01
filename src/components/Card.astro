@@ -4,7 +4,7 @@ import type { CollectionEntry } from "astro:content";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
 
-const base = import.meta.env.BASE_URL;
+// const base = import.meta.env.BASE_URL;
 
 export interface Props extends CollectionEntry<"blog"> {
   variant?: "h2" | "h3";
@@ -22,7 +22,7 @@ const headerProps = {
 
 <li class="my-6">
   <a
-    href={base+getPath(id, filePath)}
+    href={getPath(id, filePath)}
     class="inline-block text-lg font-medium text-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
   >
     {

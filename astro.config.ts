@@ -13,13 +13,10 @@ import { SITE } from "./src/config";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
-const isProd = process.env.NODE_ENV === "production";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  // base: isProd ? "/portfolio/" : "/",
-  base: isProd ? "/portfolio/" : "/",
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
