@@ -27,10 +27,10 @@ if (breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2]))) {
   <ul
     class="font-light [&>li]:inline [&>li:not(:last-child)>a]:hover:opacity-100"
   >
-    <!-- <li>
+    <li>
       <a href="/" class="opacity-80">Home</a>
       <span aria-hidden="true" class="opacity-80">&raquo;</span>
-    </li> -->
+    </li>
     {
       breadcrumbList.map((breadcrumb, index) =>
         index + 1 === breadcrumbList.length ? (

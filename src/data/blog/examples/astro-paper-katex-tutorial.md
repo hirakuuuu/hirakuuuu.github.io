@@ -1,5 +1,5 @@
 ---
-title: astro-paper の数式環境の導入について
+title: astro-paper 数式環境の導入について
 author: Hiraku Morimoto
 pubDatetime: 2025-06-28T09:00:00+09:00
 slug: astro-paper-katex-tutorial
