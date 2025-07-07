@@ -1,4 +1,4 @@
-const isProd = import.meta.env.MODE === "production";
+const isProd = import.meta.env.PROD;
 
 export const SITE = {
   website: isProd
