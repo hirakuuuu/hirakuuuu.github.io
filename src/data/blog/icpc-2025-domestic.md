@@ -1,7 +1,7 @@
 ---
 title: ICPC2025 国内予選 参加記
 author: Hiraku Morimoto
-pubDatetime: 2025-06-29T12:00:00Z
+pubDatetime: 2025-07-07T12:00:00Z
 slug: icpc-2025-domestic
 featured: false
 draft: false
