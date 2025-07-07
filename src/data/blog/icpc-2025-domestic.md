@@ -1,5 +1,5 @@
 ---
-title: ICPC2025 国内予選 参加記
+title: ICPC2025 国内予選 参加記 (KingNU/hirakuuuu 視点)
 author: Hiraku Morimoto
 pubDatetime: 2025-07-07T00:00:00Z
 slug: icpc-2025-domestic
